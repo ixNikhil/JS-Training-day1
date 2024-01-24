@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Work</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="Stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Simple Interest Rate</h1>
+    <!-- Calculation section starts here -->
+    <div class="container">
+        <label>Interest Rate</label>
+        <input type="text" id="interest" class="txt"><br>
+
+        <label>Time Period</label>
+        <input type="text" id="time" class="txt"><br>
+
+        <label>Amount</label>
+        <input type="text" id="amount" class="txt"><br>
+    </div><br/>
+
+    <div class="container">
+        <button id="btn" onclick="Calculate()">Calculate</button>
+        <label id="error" class="red"></label><br>
+    </div>
+    <!-- Result section -->
+    <div class="container">
+        <label id="result"></label>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
